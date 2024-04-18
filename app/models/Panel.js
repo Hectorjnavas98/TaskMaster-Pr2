@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const panelSchema = new mongoose.Schema({
   title: { type: String, required: true },
-  description: String,
+  subtitle: {type: String},
+  description: {type: String},
   tasks: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Task' }]
 });
 

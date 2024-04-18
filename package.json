@@ -1,11 +1,12 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
+  "description": "En este producto implementaremos un servidor con Node/Express en el que serviremos la información a partir del gestor de bases de datos MongoDB y utilizando la especificación GraphQL para proveer de los argumentos para realizar las “Queries” y los “Mutations” para interactuar con el frontal en el siguiente producto.",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
