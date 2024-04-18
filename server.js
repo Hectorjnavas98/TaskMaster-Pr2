@@ -1,7 +1,6 @@
 const { connectToDatabase } = require('./app/config/database');
 const { ApolloServer, gql } = require('apollo-server-express');
 const express = require('express');
-const mongoose = require('mongoose')
 
 const app = express();
 
